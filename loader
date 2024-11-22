@@ -6,4 +6,7 @@
 ║╚═╝║╚╝║╚╝║╔╗╣║║═╣╚═╝║║║╚╝║║║║╚╝║╚╣║═╣
 ╚═══╩══╩══╩╝╚╩╩══╩═══╩╝╚══╩╩╩╩══╩═╩══╝
 Latest Update: Nov 22, 2024
+Made By: CookieCrumble
+https://discord.gg/bdgms5hFUx
 ]]--
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CookieCrumble2/Scripts/refs/heads/main/unknownhub"))()
