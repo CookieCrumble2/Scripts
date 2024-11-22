@@ -1,0 +1,17 @@
+local games = {
+    {Name = "Arsenal", GameID = 286090429},
+    {Name = "Da Hood", GameID = 2788229376},
+    {Name = "Murder Mystery 2", GameID = 142823291},
+    {Name = "Blade Ball", GameID = 10347946135},
+    {Name = "Tower of Hell", GameID = 1962086868},
+    {Name = "Dress to Impress", GameID = 6777867805},
+    {Name = "Fisch", GameID = 1234567890}, -- Replace with actual GameID
+    {Name = "Bedwars", GameID = 6872265039},
+    {Name = "Untitled Tag", GameID = 9876241926}, -- Replace with actual GameID
+    {Name = "Build a Boat", GameID = 537413528},
+    {Name = "Evade", GameID = 9872472334},
+    {Name = "Shadow Boxing", GameID = 10324347967},
+    {Name = "Baddies", GameID = 10465227911}
+}
+
+return games
