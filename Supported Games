@@ -9,11 +9,24 @@ local games = {
     {Name = "Da Hood", GameID = 2788229376, Details = "Free Macro, Dah Aim Trainer by Hood Experiences"},
     {Name = "Dress to Impress", GameID = 6777867805},
     {Name = "Evade", GameID = 9872472334},
-    {Name = "Fisch", GameID = 1234567890}, -- Replace with actual GameID
+    {Name = "Fisch", GameID = 16732694052},
     {Name = "Murder Mystery 2", GameID = 142823291},
-    {Name = "Rivals", GameID = 1234567890}, -- Replace with actual GameID
+    {Name = "Natural Disaster Survival", GameID = 189707},
+    {Name = "Race Clicker", GameID = 9285238704},
+    {Name = "Breaking Point", GameID = 648362523},
+    {Name = "Rivals", GameID = 17625359962},
     {Name = "Shadow Boxing", GameID = 10324347967},
     {Name = "The Strongest Battlegrounds", GameID = 1234567890}, -- Replace with actual GameID
     {Name = "Tower of Hell", GameID = 1962086868},
-    {Name = "Untitled Tag", GameID = 9876241926} -- Replace with actual GameID
+    {Name = "Untitled Tag", GameID = 14044547200}
 }
+
+local function findGame(name)
+    for _, game in pairs(games) do
+        if game.Name == name then
+            print("Game:", game.Name)
+            return
+        end
+    end
+    print("Game not found.")
+end
