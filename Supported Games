@@ -20,13 +20,3 @@ local games = {
     {Name = "Tower of Hell", GameID = 1962086868},
     {Name = "Untitled Tag", GameID = 14044547200}
 }
-
-local function findGame(name)
-    for _, game in pairs(games) do
-        if game.Name == name then
-            print("Game:", game.Name)
-            return
-        end
-    end
-    print("Game not found.")
-end
